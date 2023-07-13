@@ -2107,10 +2107,10 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@componly/cli@^1.25.0":
-  version "1.25.0"
-  resolved "https://npm.pkg.github.com/download/@componly/cli/1.25.0/8210f196c2eb27b0f2a7fcfd1cdbdfb298b24587#8210f196c2eb27b0f2a7fcfd1cdbdfb298b24587"
-  integrity sha512-0vuSIgMzfAQ/ZTDlXBZV4uM2U5Af6KgqtvXqY3iVIVb7FNow4gyJXmsj3vtxeKb2v0ANHEuzEa37K0obWFSZpA==
+"@componly/cli@^1.26.0":
+  version "1.26.0"
+  resolved "https://npm.pkg.github.com/download/@componly/cli/1.26.0/8be2ff80d6a2547307dbbdef9c91aafc3d4c9a82#8be2ff80d6a2547307dbbdef9c91aafc3d4c9a82"
+  integrity sha512-LSCYBp+i77ss3/NBekXaJ/0UcCA+A2yhTjFhGKNYkRGTAbDvySxQ0kwF97Z8ma6EgiQBcSS+U1r3fu7xjTu5JQ==
   dependencies:
     "@componly/core" "*"
     "@componly/schemas" "*"
