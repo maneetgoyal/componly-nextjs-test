@@ -11,7 +11,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "scan": "componly scan --design-systems-path ./.componly/ds.json --config-path ./ --project ./"
+    "scan": "componly scan --design-systems-path=./.componly/ds.json --config-path=./ --project=./"
   },
   "dependencies": {
     "@types/node": "20.4.0",
