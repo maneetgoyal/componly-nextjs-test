@@ -25,7 +25,7 @@ jobs:
         run: |
           echo  -e "\n@componly:registry=https://npm.pkg.github.com/" >> .npmrc
           echo //npm.pkg.github.com/:_authToken=${{secrets.COMPONLY_NPM_AUTH_TOKEN}} >> .npmrc
-          yarn install
+          yarn cache clean && yarn install
 
       - name: Pre scan.json
         id: pre-scan
