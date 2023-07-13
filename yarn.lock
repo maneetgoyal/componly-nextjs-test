@@ -2303,7 +2303,7 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@componly/cli@^2.0.1":
+"@componly/cli@2.0.1":
   version "2.0.1"
   resolved "https://npm.pkg.github.com/download/@componly/cli/2.0.1/6c44603b968955ef533d0d8de44481e23add115b#6c44603b968955ef533d0d8de44481e23add115b"
   integrity sha512-MwgX8Jh02aMaGRapB7jK0p27lpBpU+zRgR2gsowwggMDsx85KU0ZVefiQUJqjLvDwv08Ru/QSPD61jqIMY8Q+w==
@@ -2322,10 +2322,10 @@
     p-retry "^4.6.2"
     terminal-link "2.1.1"
 
-"@componly/core@*":
-  version "2.0.0"
-  resolved "https://npm.pkg.github.com/download/@componly/core/2.0.0/8959ca259f8cfdc07d6c02b35ee4fb22912b1f10#8959ca259f8cfdc07d6c02b35ee4fb22912b1f10"
-  integrity sha512-E/D8tLVCJj6rum24Pvv/nB0NsGvF50F9guNIPXOtHNvkV0gNvjATpL351s+5wVWp7XQKTHsLrCO6Md/1MEzpmg==
+"@componly/core@*", "@componly/core@2.0.1":
+  version "2.0.1"
+  resolved "https://npm.pkg.github.com/download/@componly/core/2.0.1/0deda8703c3c6b9bc542a8e742c1fda9ebe89c3a#0deda8703c3c6b9bc542a8e742c1fda9ebe89c3a"
+  integrity sha512-fVC5ZnGTqbW/2y8jGu3e5rrvFRRzPKDCkbA+Sd7njOQs0Mi/09fyCEN9zyYfA+CZZhd5fls8Lnd4IjZ4LnQ91w==
   dependencies:
     "@componly/schemas" "*"
     "@componly/storybook-parser" "*"
@@ -2342,10 +2342,10 @@
     sitemap "^7.1.1"
     ts-morph "^18.0.0"
 
-"@componly/schemas@*":
-  version "2.0.0"
-  resolved "https://npm.pkg.github.com/download/@componly/schemas/2.0.0/5c1ba7f754a0b69edb7f910f147c9768a3ba10e1#5c1ba7f754a0b69edb7f910f147c9768a3ba10e1"
-  integrity sha512-ph79JJHQ7+kR98Q65YwjD3AL2UkBXYkbKDlyk7yPGqcM9ZaoTHkBFqXfpFlv82CX9Nq33esxW3LjTg7kzAJIIQ==
+"@componly/schemas@*", "@componly/schemas@2.0.1":
+  version "2.0.1"
+  resolved "https://npm.pkg.github.com/download/@componly/schemas/2.0.1/6e352fc9ecf33b2e71bf5c84689de1e14934d753#6e352fc9ecf33b2e71bf5c84689de1e14934d753"
+  integrity sha512-XSuXSMCexWX/wQ3HgNbL8+URvVQFbiNfHvQfNWIlzIOJxqMvwKZExIfyJ9g560gzslagnuX+X3NrDmJnrwK9Gg==
   dependencies:
     zod "^3.20.6"
 
