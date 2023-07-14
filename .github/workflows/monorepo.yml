@@ -32,11 +32,11 @@ jobs:
           if [[ "${{ matrix.workspaces}}" != "empty" ]]; then
               pwd
               pushd ${{ matrix.workspaces }}
-              yarn cache clean && yarn install
+              yarn install && yarn add @componly/cli -D && yarn add axios -D
               popd
           else
               echo "No workspaces to install. Running 'yarn install' in the root directory."
-             yarn cache clean && yarn install
+              yarn install && yarn add @componly/cli -D && yarn add axios -D
           fi
 
       - name: Pre scan.json
@@ -83,7 +83,7 @@ jobs:
 
       - name: scan
         id: componly-scan
-        run: yarn scan --design-systems-path   ${{ matrix.workspaces }}.componly/ds.json --config-path  ${{ matrix.workspaces }}  --project  ${{ matrix.workspaces }}
+        run: npx componly scan --design-systems-path   ${{ matrix.workspaces }}.componly/ds.json --config-path  ${{ matrix.workspaces }}  --project  ${{ matrix.workspaces }}
 
       - name: Post scan.json
         id: post-scan

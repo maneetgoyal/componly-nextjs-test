@@ -23,7 +23,7 @@ jobs:
         run: |
           echo  -e "\n@componly:registry=https://npm.pkg.github.com/" >> .npmrc
           echo //npm.pkg.github.com/:_authToken=${{secrets.COMPONLY_NPM_AUTH_TOKEN}} >> .npmrc
-          yarn cache clean && yarn install
+          yarn install && yarn add @componly/cli -D && yarn add axios -D
 
       - name: Pre scan.json
         id: pre-scan
@@ -67,7 +67,7 @@ jobs:
 
       - name: scan
         id: componly-scan
-        run: yarn scan
+        run: npx componly scan
 
       - name: Post scan.json
         id: post-scan
